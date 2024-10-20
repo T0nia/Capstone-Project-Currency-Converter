@@ -43,7 +43,7 @@ const App = () => {
   }, [fromCurrency, toCurrency, amount]);
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 bg-gray-400">
       <h1 className="text-2xl font-bold mb-4">Currency Converter</h1>
       {error && <p className="text-red-500">{error}</p>}
       <div className="flex flex-col md:flex-row md:space-x-4">
