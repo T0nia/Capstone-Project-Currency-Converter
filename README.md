@@ -1,1 +1,1 @@
-This repository contains my capstone.
+This repository contains my capstone project.
